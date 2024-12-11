@@ -78,8 +78,8 @@ a {
 
 .flex{
 
-    display: flex;
-    height: 100px;
+    
+    
 }
 
 .btn {
@@ -95,3 +95,36 @@ i {
 
     width: 100%;
 }
+
+main {
+    /* display: flex;
+ */
+}
+
+@media screen and (min-width: 960px) {
+
+    .expires {
+
+        display: block;
+    }
+
+    .bg-dark {
+        display: none;
+    }
+
+    .search_header{
+
+       
+        padding: 30px;
+        
+    }
+
+    .flex {
+
+        display: flex;
+    }
+}
+
+
+
+    
