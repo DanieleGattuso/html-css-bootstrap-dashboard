@@ -8,6 +8,10 @@
 
 /**************HEADER**********************/
 
+header{
+    margin-bottom: 30px;
+}
+
 .header_box {
     height: 100px;
     background-color: #232222;
@@ -60,4 +64,20 @@ a {
     --bs-btn-color: #fdfdfd;
     --bs-btn-border-color: #ffffff;
 
+}
+
+/********************** MAIN *********************/
+
+.catalogue_box {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.flex{
+
+    display: flex;
+    height: 100px;
 }
