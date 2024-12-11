@@ -6,6 +6,8 @@
     
 }
 
+/**************HEADER**********************/
+
 .header_box {
     height: 100px;
     background-color: #232222;
@@ -26,8 +28,12 @@
 .search_header{
 
     width: 50%;
-    height: 100%;
-    background-color: rgb(0, 0, 246);
+    /* height: 100%; */
+    /* background-color: rgb(0, 0, 246); */
+    display: flex;
+    justify-content: end;
+    /* padding: 30px; */
+    
 }
 
 img {
@@ -40,5 +46,18 @@ a {
 
     text-decoration: none;
     color: grey;
+    display: none;
+
+}
+
+.expires {
+
+    display: none;
+}
+/*****Colore Bottone Cerca**********/
+.btn-outline-success {
+
+    --bs-btn-color: #fdfdfd;
+    --bs-btn-border-color: #ffffff;
 
 }
