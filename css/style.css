@@ -81,3 +81,17 @@ a {
     display: flex;
     height: 100px;
 }
+
+.btn {
+
+    --bs-btn-line-height: 0.7
+}
+
+i {
+    margin-right: 10px;
+}
+
+.table_container {
+
+    width: 100%;
+}
