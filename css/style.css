@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header_box {
+    height: 100px;
+    background-color: #232222;
+    display: flex;
+}
+
+.nav_header {
+
+    width: 50%;
+    
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+}
+
+.search_header{
+
+    width: 50%;
+    height: 100%;
+    background-color: rgb(0, 0, 246);
+}
+
+img {
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+
+    text-decoration: none;
+    color: grey;
+
+}
