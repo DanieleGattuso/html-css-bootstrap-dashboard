@@ -101,30 +101,31 @@ main {
  */
 }
 
-@media screen and (min-width: 960px) {
 
-    .expires {
 
-        display: block;
-    }
 
-    .bg-dark {
-        display: none;
-    }
+@media screen and (min-width: 768px){
 
-    .search_header{
 
-       
-        padding: 30px;
-        
-    }
-
-    .flex {
-
-        display: flex;
-    }
+a {
+    display: block;
 }
 
+.expires {
 
+    display: block;
+}
+
+.bg-dark {
+    display: none;
+}
+
+.search_header{
+
+       
+    padding: 30px;
+    
+}
 
     
+}
